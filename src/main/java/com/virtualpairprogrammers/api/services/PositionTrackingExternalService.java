@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.virtualpairprogrammers.api.domain.VehiclePosition;
 
+
 @Service 
 public class PositionTrackingExternalService 
 {
